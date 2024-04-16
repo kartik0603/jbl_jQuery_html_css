@@ -1,0 +1,266 @@
+@media only screen and (max-width: 769px) {
+  .nav_links_task2 {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    width: 60vw;
+    height: fit-content;
+    text-align: center;
+    background: white;
+    color: black;
+    top: 100px;
+    left: 0px;
+    border: 0.5px solid rgb(250, 70, 22);
+    z-index: 1000;
+  }
+
+  .click_bar {
+    display: block;
+  }
+  .nav_links_task2 li {
+    margin: 2%;
+  }
+
+  .nav_links_task2 li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    /* justify-content: center; */
+
+    align-items: center;
+  }
+
+  .nav_bar_main_container {
+    width: 100vw;
+  }
+
+  .Swiper_img_banner_task_2_jbl {
+    width: 99vw;
+  }
+
+  
+  :root {
+    --swiper-navigation-size: 24px;
+  }
+
+  .jbl_black_info_main_container {
+  
+   display: none;
+    
+  
+  }
+
+  .jbl_text_box
+{
+    width: 100vw;
+    
+    height: 55px;
+    
+
+}
+
+.jbl_heading_text
+{
+    font-size: 35px;
+   
+    color:black;
+   
+}
+
+.jbl_products {
+ 
+  width: 130px;
+  height: 330px;
+  box-shadow: none;
+ 
+
+}
+.jbl_products:hover {
+  box-shadow: none
+}
+
+.jbl_products_imgs {
+  width: 110px;
+  height: 90px;
+}
+._jbl_regular_products_text
+{
+    font-size: 11px;
+
+}
+
+.jbl_products_small_text {
+  
+  font-size: 10px;
+  font-weight: 90;
+  
+}
+
+.jbl_products_price_text {
+ 
+  font-size: 18px;
+  font-weight: 250;
+ 
+}
+
+.jbl_products_button {
+  width: 100px;
+  height: 30px;
+  font-size: 12px;
+  font-weight: 50;
+ 
+}
+.jbl_products_button:hover {
+  background-color: rgb(231, 76, 60);
+  color: white;
+
+
+}
+
+.jbl_in_ear_headphone_main_container
+{
+  display: grid;
+    width: 100vw;
+    height: 100%;
+
+
+
+    grid-template-columns: 240px  ;
+    grid-template-rows: 450px 450px 450px 450px  450px 450px 450px 450px  550px 230px;
+   
+}
+.jbl_in_ear_headphones_products
+{
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 220px;
+    height: 430px;
+    border: none;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    border-radius: 20px;
+}
+
+.jbl_in_ear_products_imgs
+{
+  width: 210px;
+    height: 220px;
+    transition: all 1.5s;
+}
+
+.jbl_in_ear_products_imgs:hover
+{
+  transform: scale(1.4);
+}
+
+.question h4 {
+  
+  font-weight: 500;
+  font-size: 20px;
+ 
+}
+
+.question .faqAnswer { 
+  
+  font-size: 18px;
+}
+
+.jbl_liveItRaw_liveItReal_video_container
+{
+    width: 100vw;
+    /* height: 100%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: black;
+}
+
+.jbl_liveItRaw_liveItReal_video
+{
+    width: 90vw;
+}
+
+.jbl_video_text
+{
+    font-family: cursive;
+    font-size: 40px;
+    font-weight: 500;
+    color: white;
+}
+
+.jbl_bottom_section
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    background: black;
+}
+
+.jbl_bottom_img
+{
+    width: 100vw;
+}
+
+.jbl_main_footer_container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    height: fit-content;
+    background: black;
+
+}
+
+.jbl_footer_heading_boxes
+{
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 450px;
+    /* border: 2px solid white; */
+    margin-top: 2%;
+}
+
+.jbl_footer_heading_text
+{
+    font-family:  Helvetica, Arial, sans-serif;
+    font-size: 35px;
+    font-weight: 400;
+    color: white;
+}
+.jbl_footer_info_texts
+{
+    font-family:  Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 200;
+    color: white;
+}
+
+.jbl_footer_info_texts:hover
+{
+    color: rgb(231, 76, 60);
+ 
+}
+
+.bootom_horizontal_line
+{
+    width: 100vw;
+    size: 3px;
+    color: rgb(231, 76, 60);
+
+
+}
+
+
+
+}

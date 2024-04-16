@@ -1,0 +1,436 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body
+{
+  overflow-x: hidden;
+}
+.nav_bar_main_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  width: 100vw;
+  height: 100px;
+  border: 1.5px solid rgb(250, 70, 22);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.logo_nav_task2_logo_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 2%;
+}
+
+.logo_nav_task2_img {
+  width: 100px;
+  height: 80px;
+}
+
+.nav_links_task2 {
+  display: flex;
+  justify-content: space-between;
+  width: 70vw;
+  margin-right: 1%;
+  text-align: center;
+  align-items: center;
+}
+
+.nav_links_task2 li {
+  list-style: none;
+}
+
+.nav_links_task2 li a {
+  text-decoration: none;
+  color: black;
+  font-size: 23px;
+  font-weight: light;
+  
+}
+
+.click_bar {
+  display: none;
+}
+
+.click_bar_img {
+  width: 35px;
+  height: 35px;
+}
+
+.nav_task2_icons_box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 150px;
+  margin-right: 1.5%;
+}
+
+.nav_task2_icons_img {
+  width: 33px;
+  height: 30px;
+}
+
+.jbl_baneer_task2_1 {
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  /* margin-top: 3%; */
+}
+
+.mySlides {
+  width: 99vw;
+}
+
+.jbl_black_info_main_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 60px;
+  background: black;
+  margin-top: 0.5%;
+
+}
+
+.jbl_black_box {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 33.33vw;
+  height: 60px;
+
+  border: 1px solid white;
+}
+
+.jbl_blck_img {
+  width: 50px;
+  height: 50px;
+}
+
+.jbl_black_text {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  color: white;
+  letter-spacing: normal;
+  line-height: 24px;
+  list-style-image: none
+}
+
+.jbl_black_text:hover {
+  color: rgb(231, 76, 60);
+
+}
+
+.swiper {
+  margin-top: 2%;
+ 
+  margin-left: 1.5%;
+  margin-bottom: 2%;
+}
+
+.jbl_text_box
+{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 55px;
+    /* border: 1px solid rgb(17, 1, 1); */
+    margin-top: 2%;
+
+}
+
+.jbl_heading_text
+{
+    
+    font-family:  Helvetica, Arial, sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    color:black;
+    letter-spacing: normal;
+    line-height: 24px;
+    list-style-image: none
+}
+
+
+
+.jbl_products {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  height: 610px;
+  border: 2px solid rgb(231, 76, 60);
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  border-radius: 20px;
+
+}
+
+.jbl_products:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.jbl_products_imgs {
+  width: 349px;
+  height: 350px;
+}
+._jbl_regular_products_text
+{
+    font-family:  Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+
+}
+
+.jbl_products_small_text {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  font-weight: 100;
+  color: gray;
+  letter-spacing: normal;
+  line-height: 24px;
+  list-style-image: none;
+}
+
+.jbl_products_price_text {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 30px;
+  font-weight: 300;
+  color: rgb(54, 54, 54);
+}
+
+.jbl_products_button {
+  width: 170px;
+  height: 40px;
+  text-align: center;
+  font-size: larger;
+  font-weight: bolder;
+  color: rgb(231, 76, 60);
+  background-color: white;
+  border: 1px solid rgb(231, 76, 60);
+  border-radius: 15px;
+  transition: all 1.2s;
+
+}
+
+.jbl_products_button:hover {
+  background-color: rgb(231, 76, 60);
+  color: white;
+
+
+}
+
+.jbl_in_ear_headphone_main_container
+{
+  display: grid;
+    width: 100vw;
+    height: 100%;
+
+    /* background-color: red; */
+    /* border: 5px solid rgb(17, 1, 1); */
+
+    grid-template-columns: 360px 360px 360px 360px ;
+    grid-template-rows: 580px 580px  100px;
+    row-gap: 2%;
+    column-gap: 1%;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    margin-left: 1%;
+}
+
+.jbl_in_ear_headphones_products
+{
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    height: 570px;
+    border: 2px solid rgb(231, 76, 60) ;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    border-radius: 20px;
+}
+
+.jbl_in_ear_products_imgs
+{
+  width: 249px;
+    height: 250px;
+}
+
+body, html {
+  font-family: 'Open Sans', sans-serif;
+  /* color:slategray; */
+}
+
+
+/* Default container for all questions */
+#container {
+  width: 100vw; 
+  margin:auto;
+}
+
+/* Question styles */
+.question {
+  padding: 10px;
+  border-radius: 6px;
+  background: white;
+  transition: all 0.5s ease;
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+
+.question:hover {
+  background-color:rgb(255, 229, 222);
+}
+
+.question.open {
+  -webkit-box-shadow: 0px 0px 17px -1px rgba(0,0,0,0.13);
+  -moz-box-shadow: 0px 0px 17px -1px rgba(0,0,0,0.13);
+  box-shadow: 0px 0px 17px -1px rgba(0,0,0,0.13);
+}
+
+.question .faqAnswer { 
+  display: none; 
+  padding: 20px 10px;
+  line-height: 28px;
+  color: rgba(8, 0, 0, 0.6);
+  font-size: 27px;
+}
+
+.question.open:hover {
+  background: white;
+}
+
+.question h4 {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  border-radius: 6px;
+  margin: 0px;
+  padding: 10px;
+  /* color: black; */
+  color:  rgb(255, 70, 18);
+  font-weight: 700;
+  font-size: 30px;
+  cursor: pointer;
+  border: 3px solid rgb(255, 70, 18);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.question h4.open {
+  border-radius: 6px;
+  margin: 0px;
+  color: black;
+  background-color: rgb(255, 217, 152);
+  cursor: pointer;
+}
+
+.question:hover h4 {
+  color: rgb(0, 0, 0);
+}
+
+
+.jbl_liveItRaw_liveItReal_video_container
+{
+    width: 100vw;
+    /* height: 100%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: black;
+}
+
+.jbl_liveItRaw_liveItReal_video
+{
+    width: 90vw;
+}
+
+.jbl_video_text
+{
+    font-family: cursive;
+    font-size: 70px;
+    font-weight: 500;
+    color: white;
+}
+
+
+.jbl_bottom_section
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    background: black;
+}
+
+.jbl_bottom_img
+{
+    width: 100vw;
+}
+
+.jbl_main_footer_container
+{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    height: 100%;
+    background: black;
+
+}
+
+.jbl_footer_heading_boxes
+{
+    flex-direction: column;
+    align-items: center;
+    width: 20vw;
+    height: 450px;
+    /* border: 2px solid white; */
+    margin-top: 2%;
+}
+
+.jbl_footer_heading_text
+{
+    font-family:  Helvetica, Arial, sans-serif;
+    font-size: 35px;
+    font-weight: 400;
+    color: white;
+}
+.jbl_footer_info_texts
+{
+    font-family:  Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 200;
+    color: white;
+}
+
+.jbl_footer_info_texts:hover
+{
+    color: rgb(231, 76, 60);
+ 
+}
+
+.bootom_horizontal_line
+{
+    width: 100vw;
+    size: 3px;
+    color: rgb(231, 76, 60);
+
+
+}

@@ -1,0 +1,798 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Official JBL Store -Speakers,Headphones and more</title>
+    <link rel="shortcut icon" href="/JBL logo.webp" type="image/x-icon" />
+
+
+    <link rel="stylesheet" href="task2_1.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="media_task2_1.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="jQueryFAQAccordion.js"></script>
+   
+
+
+    <style>
+   
+
+      .swiper {
+        width: 100vw;
+        /* height: 100%; */
+      }
+
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      /* .swiper-slide img {
+          display: block;
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        } */
+    </style>
+  </head>
+
+  <body>
+    <div style="text-decoration: none">
+      <button
+        style="
+          width: fit-content;
+          color: burlywood;
+          background-color: bisque;
+          border-radius: 5px;
+          text-decoration: none;
+          margin-bottom: 2%;
+        "
+      >
+        <a href="/index.html">HOME </a>
+      </button>
+    </div>
+    <div class="nav_bar_main_container">
+      <div class="click_bar">
+        <img class="click_bar_img" src="task 2 click bar.png" alt="" />
+      </div>
+
+      <div class="logo_nav_task2_logo_box">
+        <img class="logo_nav_task2_img" src="/jbl logo  jquery.webp" alt="" />
+      </div>
+
+      <ul class="nav_links_task2">
+        <li><a href="">Featured</a></li>
+        <li><a href="">Headphone</a></li>
+        <li><a href="">Speakers</a></li>
+        <li><a href="">Soundbar</a></li>
+        <li><a href="">CarAudio</a></li>
+        <li><a href="">Login</a></li>
+        <li><a href="">CliamWarranty</a></li>
+        <li><a href="/dashboard.html">DashBoard</a></li>
+
+
+
+      </ul>
+
+      <div class="nav_task2_icons_box">
+        <img
+          class="nav_task2_icons_img"
+          src="search task 2 jquery.png"
+          alt=""
+        />
+        <img class="nav_task2_icons_img" src="/cart task2 jquery.png" alt="" />
+        <img class="nav_task2_icons_img" src="/user jbl task 2.1.png" alt="" />
+
+      </div>
+    </div>
+
+
+
+    <div class="jbl_baneer_task2_1">
+      <img class="mySlides" src="/jbl_banner_1_task2.jpg" />
+      <img class="mySlides" src="/jbl_banner_2_task2.jpg" />
+      <img class="mySlides" src="/jbl_banner_3_task2.jpg" />
+      <img class="mySlides" src="/jbl_banner_4_task2.jpg" />
+
+  </div>
+
+  <script>
+      var myIndex = 0;
+      carousel();
+
+      function carousel() {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          for (i = 0; i < x.length; i++) {
+              x[i].style.display = "none";
+          }
+          myIndex++;
+          if (myIndex > x.length) {
+              myIndex = 1;
+          }
+          x[myIndex - 1].style.display = "block";
+          setTimeout(carousel, 4000);
+      }
+  </script>
+
+
+<div class="jbl_black_info_main_container">
+
+  <div class="jbl_black_box">
+      <img class="jbl_blck_img" src="/delivery jbl.png" alt="">
+
+      <p class="jbl_black_text">FREE SHIPPING & FREE RETURNS</p>
+  </div>
+  <div class="jbl_black_box">
+      <img class="jbl_blck_img" src="/number-24 jbl.png" alt="">
+
+
+      <p class="jbl_black_text"> HOURS BRAND PROMISE</p>
+  </div>
+  <div class="jbl_black_box">
+      <img class="jbl_blck_img" src="/assurance jbl.png" alt="">
+
+
+      <p class="jbl_black_text">ADDITIONAL WARRANTY</p>
+  </div>
+
+
+</div>
+
+<div class="jbl_text_box">
+  <p class="jbl_heading_text">POPULAR PRODUCTS</p>
+</div>
+
+ <!-- Swiper -->
+ <div class="swiper mySwiper">
+  <div class="swiper-wrapper">
+
+    <div class="swiper-slide">
+  <div class="jbl_products">
+
+
+            <img class="jbl_products_imgs" src="01.JBL_Tune Buds_Product Image_Hero_Blue.jpg" alt="">
+            <p class="_jbl_regular_products_text"> JBL Tune Buds</p>
+            <p class="jbl_products_small_text">True Wireless Noise Cancelling </p>
+            <p class="jbl_products_price_text"> &#8377 5499.00/- <small><s>6999.00</s></small> </p>
+            <button class="jbl_products_button"> ADD TO CART</button>
+
+
+        </div>
+    </div>
+
+    <div class="swiper-slide">
+      <div class="jbl_products">
+
+
+        <img class="jbl_products_imgs" src="01.JBL_Tune Beam_Product Image_Hero_White.jpg" alt="">
+        <p class="_jbl_regular_products_text">JBL Tune Beam</p>
+        <p class="jbl_products_small_text">True Wireless Noise Cancelling</p>
+        <p class="jbl_products_price_text"> &#8377 6499.00/- <small><s>7999.00</s></small></p>
+        <button class="jbl_products_button"> ADD TO CART</button>
+
+
+    </div>
+    </div>
+
+    <div class="swiper-slide">
+      <div class="jbl_products">
+
+
+        <img class="jbl_products_imgs" src="1.JBL_TUNE_130NC_Product image_Hero_Black.jpg" alt="">
+        <p class="_jbl_regular_products_text">JBL Tune 130NC TWS</p>
+        <p class="jbl_products_small_text">True Wireless Noise Cancelling</p>
+        <p class="jbl_products_price_text"> &#8377 4999.00/- <small><s>6999.00</s></small></p>
+        <button class="jbl_products_button"> ADD TO CART</button>
+
+
+    </div>
+    </div>
+
+    <div class="swiper-slide">
+      <div class="jbl_products">
+
+
+        <img class="jbl_products_imgs" src="1_JBL_PULSE_5_HERO_34364_x2.jpg" alt="">
+        <p class="_jbl_regular_products_text">JBL Pulse 5</p>
+        <p class="jbl_products_small_text">Portable Bluetooth Speaker With light Show</p>
+        <p class="jbl_products_price_text">&#8377 22,999.00/- <small><s>26,999.00</s></small></p>
+        <button class="jbl_products_button"> ADD TO CART</button>
+
+
+    </div>
+    </div>
+
+    <div class="swiper-slide">
+      <div class="jbl_products">
+
+
+        <img class="jbl_products_imgs" src="1_JBL_PARTYBOX_710_HERO_0031_x8.jpg" alt="">
+        <p class="_jbl_regular_products_text">JBL Partybox 710</p>
+        <p class="jbl_products_small_text">Party Speaker With 800W RWS <br> Powerfull Sound,built in lights and
+            splashproof design</p>
+        <p class="jbl_products_price_text">&#8377 65,999.00/- <small><s>68,999.00</s></small></p>
+        <button class="jbl_products_button"> ADD TO CART</button>
+
+    </div>
+    </div>
+
+    <div class="swiper-slide">
+      <div class="jbl_products">
+
+
+        <img class="jbl_products_imgs" src="JBL_BOOMBOX3_WIFI_HERO_37919_x4.jpg" alt="">
+        <p class="_jbl_regular_products_text"> JBL Boombox 3 WI-FI</p>
+        <p class="jbl_products_small_text">Powerfull WI-Fi and Bluetooth Portable Speaker</p>
+        <p class="jbl_products_price_text">&#8377 44,999.00/- <small><s>59,999.00</s></small></p>
+        <button class="jbl_products_button"> ADD TO CART</button>
+
+
+    </div>
+    </div>
+
+    <!-- <div class="swiper-slide">
+
+    
+    </div>
+
+    <div class="swiper-slide">
+      
+    </div>
+
+    <div class="swiper-slide">
+     
+    </div> -->
+
+  </div>
+  <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+  <div class="swiper-pagination"></div>
+</div>
+
+
+<div class="swiper mySwiper">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide">
+      <div class="jbl_products">
+
+
+        <img class="jbl_products_imgs" src="JBL-Cinema-SB130-Group_1605x1605px.jpg" alt="">
+        <p class="_jbl_regular_products_text">JBL Cinema SB230</p>
+        <p class="jbl_products_small_text"></p>
+        <p class="jbl_products_price_text">&#8377 8,999.00/- <small><s>13,999.00</s></small></p>
+        <button class="jbl_products_button"> ADD TO CART</button>
+
+
+    </div>
+    </div>
+
+    <div class="swiper-slide">
+      <div class="jbl_products">
+
+
+        <img class="jbl_products_imgs" src="JBL_CINEMA_SB190_HERO.jpg" alt="">
+        <p class="_jbl_regular_products_text">JBL Cinema SB190</p>
+        <p class="jbl_products_small_text">2.1 Channel soundbar with Virtual Dolby <br> Atmos and wireless subwoofer
+        </p>
+        <p class="jbl_products_price_text">&#8377 25,999.00/- <small><s>28,999.00</s></small></p>
+        <button class="jbl_products_button"> ADD TO CART</button>
+
+
+    </div>
+    </div>
+
+    <div class="swiper-slide">
+      <div class="jbl_products">
+
+
+        <img class="jbl_products_imgs" src="JBLBar2p1DeepBassMK2_1605x1605_WEB_HERO.jpg" alt="">
+        <p class="_jbl_regular_products_text">Bar 2.1 Deep Bass(MK2)</p>
+        <p class="jbl_products_small_text">2.1 Channel with Soundbar soundbar with wireless Subwoofer</p>
+        <p class="jbl_products_price_text">&#8377 24,999.00/- <small><s>34,999.00</s></small></p>
+        <button class="jbl_products_button"> ADD TO CART</button>
+
+
+    </div>
+    </div>
+
+    <div class="swiper-slide">
+      <div class="jbl_products">
+
+
+        <img class="jbl_products_imgs" src="1.JBL_Tune_770NC_Product Image_Hero_Black.jpg" alt="">
+        <p class="_jbl_regular_products_text">JBL Tune 770NC</p>
+        <p class="jbl_products_small_text">Adaptive Noise Cancelling Wireless</p>
+        <p class="jbl_products_price_text">&#8377 6,999.00/- <small><s>9,999.00</s></small></p>
+        <button class="jbl_products_button"> ADD TO CART</button>
+
+    </div>
+    </div>
+
+    <div class="swiper-slide">
+
+      <div class="jbl_products">
+
+
+        <img class="jbl_products_imgs" src="1.JBL_TUNE_760NC_Product Image_Hero_White.jpg" alt="">
+        <p class="_jbl_regular_products_text"> JBL Tune 760NC</p>
+        <p class="jbl_products_small_text">Wireless over-ear NC Headphone</p>
+        <p class="jbl_products_price_text">&#8377 5,999.00/- <small><s>7,999.00</s></small></p>
+        <button class="jbl_products_button"> ADD TO CART</button>
+
+
+    </div>
+    </div>
+
+    <div class="swiper-slide">
+      <div class="jbl_products">
+
+
+        <img class="jbl_products_imgs" src="JBL_TOUR_One M2_Product Image_Hero_Champagne.jpg" alt="">
+        <p class="_jbl_regular_products_text">JBL Tour One M2</p>
+        <p class="jbl_products_small_text">Wireless over-ear Noise Cancelling Headphone</p>
+        <p class="jbl_products_price_text">&#8377 19,999.00/- <small><s>34,999.00</s></small></p>
+        <button class="jbl_products_button"> ADD TO CART</button>
+
+
+    </div>
+    </div>
+
+    
+  </div>
+  <div class="swiper-button-next"></div>
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-pagination"></div>
+
+</div>
+
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+  var swiper = new Swiper(".mySwiper", {
+    slidesPerView: 3,
+    spaceBetween: 0,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+  });
+</script>
+
+<div class="jbl_text_box">
+  <p class="jbl_heading_text">In Ear Headphones</p>
+</div>
+
+
+
+<div class="jbl_in_ear_headphone_main_container">
+
+<div class="jbl_in_ear_headphones_products">
+
+  <img class="jbl_in_ear_products_imgs" src="/JBL_C50HI_Red.jpg" alt="">
+  <p class="_jbl_regular_products_text">JBL C50HI</p>
+
+  <p class="jbl_products_small_text"> In-Ear Headphones </p>
+  <p class="jbl_products_price_text"> &#8377 499.00 /- <small style="font-size: 15px;"><s>999.00/-</s></small> </p>
+  <button class="jbl_products_button"> ADD TO CART</button>
+
+</div>
+
+
+<div class="jbl_in_ear_headphones_products">
+  
+  <img class="jbl_in_ear_products_imgs" src="/C100SI_black_dvHAMaster.jpg" alt="">
+  <p class="_jbl_regular_products_text">C100SI</p>
+
+  <p class="jbl_products_small_text">In-Ear Headphones  </p>
+  <p class="jbl_products_price_text"> &#8377 599.00/- <small style="font-size: 15px;"><s>1299.00/-</s></small> </p>
+  <button class="jbl_products_button"> ADD TO CART</button>
+
+</div>
+
+
+<div class="jbl_in_ear_headphones_products">
+  
+  <img class="jbl_in_ear_products_imgs" src="/C150SI-red1.jpg" alt="">
+  <p class="_jbl_regular_products_text">C150SI</p>
+
+  <p class="jbl_products_small_text">JBL C150SI In Ear Headphones  </p>
+  <p class="jbl_products_price_text"> &#8377 629.00/- <small style="font-size: 15px;"><s>1399.00/-</s></small> </p>
+  <button class="jbl_products_button"> ADD TO CART</button>
+
+</div>
+
+
+<div class="jbl_in_ear_headphones_products">
+  
+  <img class="jbl_in_ear_products_imgs" src="/JBL_C200SI-dark-blue.jpg" alt="">
+  <p class="_jbl_regular_products_text">C200SI</p>
+
+  <p class="jbl_products_small_text"> In-Ear Headphones </p>
+  <p class="jbl_products_price_text"> &#8377 799.00/- <small style="font-size: 15px;"><s>1499.00/-</s></small> </p>
+  <button class="jbl_products_button"> ADD TO CART</button>
+
+</div>
+
+
+<div class="jbl_in_ear_headphones_products">
+  
+  <img class="jbl_in_ear_products_imgs" src="/JBL Endurance Run 2 Wired.jpg" alt="">
+  <p class="_jbl_regular_products_text">JBL Endurance Run 2 Wired</p>
+
+  <p class="jbl_products_small_text">Waterproof Wired Sports In-Ear Headphones  </p>
+  <p class="jbl_products_price_text"> &#8377 1199.00 /- <small style="font-size: 15px;"><s>1799.00/-</s></small> </p>
+  <button class="jbl_products_button"> ADD TO CART</button>
+
+</div>
+
+
+
+<div class="jbl_in_ear_headphones_products">
+  
+  <img class="jbl_in_ear_products_imgs" src="/JBL_Tune_310C_Product Image_Hero_Blue.jpg" alt="">
+  <p class="_jbl_regular_products_text">JBL Tune 310C USB</p>
+
+  <p class="jbl_products_small_text">In-ear headphones with  Hi-Res Audio <br> support  and JBL Pure  Bass Sound  </p>
+  <p class="jbl_products_price_text"> &#8377 1499.00/- <small style="font-size: 15px;"><s>1999.00/-</s></small> </p>
+  <button class="jbl_products_button"> ADD TO CART</button>
+
+</div>
+
+
+
+<div class="jbl_in_ear_headphones_products">
+  <img class="jbl_in_ear_products_imgs" src="/JBL_EnduranceRunBT.jpg" alt="">
+  <p class="_jbl_regular_products_text">JBL Endurance RUNBT</p>
+
+  <p class="jbl_products_small_text"> Sweatproof Wireless In-Ear Sport Headphones </p>
+  <p class="jbl_products_price_text"> &#8377 1799.00/- <small style="font-size: 15px;"><s>3199.00/-</s></small> </p>
+  <button class="jbl_products_button"> ADD TO CART</button>
+
+</div>
+
+
+
+<div class="jbl_in_ear_headphones_products">
+  
+  <img class="jbl_in_ear_products_imgs" src="/JBL_TUNE 215BT.jpg" alt="">
+  <p class="_jbl_regular_products_text">JBL Tune 215BT</p>
+
+  <p class="jbl_products_small_text"> Wireless Earbud headphones </p>
+  <p class="jbl_products_price_text"> &#8377 1899.00/- <small style="font-size: 15px;"><s>2999.00/-</s></small> </p>
+  <button class="jbl_products_button"> ADD TO CART</button>
+
+</div>
+
+
+</div>
+
+
+<div class="jbl_text_box">
+  <p class="jbl_heading_text">FAQ</p>
+</div>
+
+
+
+
+            <!-- these are your questions-->
+            <div class="question">
+              <!-- this is the question -->
+              <h4>Are shipping charges applied if I return my order?</h4>
+              <div class="faqAnswer">
+                  <!-- this is the answer -->
+                  No, shipping is on us. You can send your order back within 30 days for a full refund.
+<br> <br> 
+
+
+                  To initiate a return request, go to "Return Products" under "Order Support" in the menu bar.
+              </div>
+          </div>
+
+          <div class="question">
+              <h4>Can I surprise family and friends in another European country with a present?</h4>
+              <div class="faqAnswer">
+                Unfortunately this is not currently possible.
+              </div>
+          </div>
+
+          <div class="question">
+              <h4> How do I get a copy of my invoice?</h4>
+              <div class="faqAnswer">
+                You can download a copy of your invoice on our website. Go to "Order Status" under "Order Support" in the menu bar. To access your order details and download your invoice, you will need the following details:
+
+
+                <br> <br>
+                Once directed to your order details, there is an option to download your invoice.
+
+The details on your invoice is a direct reflection of your order details. We are unable to amend the details on your invoice.
+               
+              </div>
+          </div>
+
+
+          <div class="question">
+            <h4>How do I return an order? </h4>
+            <div class="faqAnswer">
+              We offer a 30 day free return period. To initiate a return request, go to "Return Products" under "Order Support" in the menu bar.
+            </div>
+        </div>
+
+
+
+        <div class="question">
+          <h4> Product Registration – FAQ</h4>
+          <div class="faqAnswer">
+
+
+           <b>Looking to register your product?</b> <br>
+We have addressed some of the questions that you might have. But feel free to reach out to us anytime you need us!  
+
+<br> <br>
+
+<b>Where can I register my product?</b><br>
+Visit our product registration page.
+
+<br> <br>
+
+
+<b>Do I need to register my product for warranty?</b> <br>
+No. Warranty is never depending on the registration of a product. Registration simply helps keep a record of your purchase(s) and gives you the opportunity to stay update on any information about your product(s).
+
+<br> <br>
+
+
+<b>Do I need an account to register my product?</b><br>
+Yes. We have made it easy to create an account for you so you can enjoy the benefits of having an account, including the option of registering your product.
+<br> <br>
+
+
+<b>Already registered a product and have questions?</b><br>
+Go no further! We hope you can answer your questions below. If needed, get in touch. We are always here to help you!
+
+<br><br>
+
+<b>Can I edit an existing product registration of mine?</b><br>
+Partly, yes. You can edit the “Date of purchase” and “Serial Number” fields.
+<br>
+
+To do so, log into your account and select "My Product Registrations", find the relevant product from your list of registrations and select “View Registration”. Here you will find the option “Edit registration”.
+<br>
+
+If you wish to make changes to any other fields, please delete the relevant registration completely (see instructions below) and simply create a new registration.
+<br><br>
+
+
+<b>Can I delete an existing product registrations of mine?</b><br>
+Yes. To delete an existing product registration, you can use the “Delete registration” option.
+<br>
+
+Log into your account and select "My Product Registrations", find the relevant product from your list of registrations and select “View Registration”. Here you will find the option “Delete registration”.
+           
+          </div>
+      </div>
+
+
+
+      <div class="question">
+        <h4> What are refurbished products?</h4>
+        <div class="faqAnswer">
+
+
+          Refurbished products in our "Outlet" menu are products that have been returned to us by our dealers, retailers or customers within the 30-day return period.
+
+          <br><br>
+
+
+
+These products have been thoroughly checked and tested to meet the high standards that are set by Harman. A refurbished product contains the same features and functionalities as a new model. You may see some minor cosmetic imperfections, and perhaps the product has been repackaged in none-branded packaging, but you can be assured that these products will perform perfectly.
+<br><br>
+
+
+A refurbished product is covered by our 30-day return period and the same warranty conditions as with a similar new product. Voucher codes cannot be used to purchase refurbished Harman products unless the promotion explicitly states otherwise.
+
+<br>
+<br>
+
+It can be that a refurbished product temporarily will have a sales price that is equivalent to or even exceeds the price a similar new product, if the new product is on sale.
+         
+        </div>
+    </div>
+
+
+          <!-- end of your questions -->
+         
+  
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-1VDDWMRSTH"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-1VDDWMRSTH');
+</script>
+<script>
+try {
+fetch(new Request("https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js", { method: 'HEAD', mode: 'no-cors' })).then(function(response) {
+  return true;
+}).catch(function(e) {
+  var carbonScript = document.createElement("script");
+  carbonScript.src = "//cdn.carbonads.com/carbon.js?serve=CK7DKKQU&placement=wwwjqueryscriptnet";
+  carbonScript.id = "_carbonads_js";
+  document.getElementById("carbon-block").appendChild(carbonScript);
+});
+} catch (error) {
+console.log(error);
+}
+</script>
+
+<div class="jbl_liveItRaw_liveItReal_video_container">
+
+  <p class="jbl_video_text">
+      #LiveItRaw #LiveItReal
+  </p>
+
+
+
+
+  <video autoplay="" playsinline="" loop="" muted="" id="bg-video" class="jbl_liveItRaw_liveItReal_video">
+      <source src="jbl video.mp4" type="video/mp4">
+  </video>
+</div>
+
+
+<div class="jbl_bottom_section">
+  <img class="jbl_bottom_img" src="jbl_bottom_img.png" alt="">
+</div>
+
+<div class="jbl_main_footer_container">
+
+  <div class="jbl_footer_heading_boxes">
+
+      <p class="jbl_footer_heading_text">Shop</p> <br><br>
+      <p class="jbl_footer_info_texts">Featured</p><br>
+      <p class="jbl_footer_info_texts">Headphone</p><br>
+      <p class="jbl_footer_info_texts">Gaming</p><br>
+      <p class="jbl_footer_info_texts">Speakers</p><br>
+      <p class="jbl_footer_info_texts">Soundbars</p><br>
+      <p class="jbl_footer_info_texts">Professional</p><br>
+      <p class="jbl_footer_info_texts">Offer Zone</p>
+
+
+
+
+
+
+
+  </div>
+
+  <div class="jbl_footer_heading_boxes">
+
+      <p class="jbl_footer_heading_text">Support</p> <br><br>
+      <p class="jbl_footer_info_texts">Ordr Status</p><br>
+      <p class="jbl_footer_info_texts">Bulk Purchase Program</p><br>
+      <p class="jbl_footer_info_texts"> Buy Authentic</p><br>
+      <p class="jbl_footer_info_texts"> Product Support</p><br>
+      <p class="jbl_footer_info_texts"> Shipping & Delivery policy</p><br>
+      <p class="jbl_footer_info_texts"> Cancellation & Refund Policy</p><br>
+      <p class="jbl_footer_info_texts"> Service Center</p><br>
+      <p class="jbl_footer_info_texts"> Brand Stores</p>
+
+      
+  </div>
+
+
+  <div class="jbl_footer_heading_boxes">
+
+      <p class="jbl_footer_heading_text">About Us</p>
+      <br><br>
+      <p class="jbl_footer_info_texts">Harman Corporate</p><br>
+      <p class="jbl_footer_info_texts"> Privacy Policy</p><br>
+      <p class="jbl_footer_info_texts">Cookie Policy</p><br>
+      <p class="jbl_footer_info_texts">Terms of Use</p><br>
+      <p class="jbl_footer_info_texts">Why Buy Direct</p><br>
+      <p class="jbl_footer_info_texts">JbL Sound Partners</p><br>
+
+      
+
+      
+  </div>
+
+
+  <div class="jbl_footer_heading_boxes">
+
+      <p class="jbl_footer_heading_text">Contact Us</p>
+
+      <br><br>
+      <p class="jbl_footer_info_texts">1800-102-0525</p>
+      <p class="jbl_footer_info_texts">Mon-Sun- 10AM-7PM </p>
+
+      <br>
+
+
+      <p class="jbl_footer_info_texts"><u>Prouduct Support</u></p>
+
+      <br>
+
+
+
+      <p class="jbl_footer_info_texts"><b>Manufactured by:</b> <br>Harman International Industries, 
+      
+      <br>
+      8500, Balboa Blvd,
+      <br>
+      Northridge, CA 91329,USA 
+      <br>
+
+
+      <br>
+
+      <b>Imported by:</b>
+
+      <br>
+      Harman International (India) Pvt. Ltd.,
+      <br>
+      Salarpuria Sattva Knowledge Court
+      <br>
+      Office-1, Wing ‘A’ & ‘B’ 6th floor,
+      <br>
+      Plot No. 9, Phase I , Doddenakkundi 
+      <br>
+      Industrial Area, Doddenakkundi 
+      <br>
+      Village, K.R. Puram Hobli, Bangalore 
+      <br>
+      East Taluk,
+      <br>
+      Bangalore-560048, Karnataka, India. 
+
+
+
+      
+      
+      
+      </p>
+
+      <p class="jbl_footer_info_texts"></p>
+      <p class="jbl_footer_info_texts"></p>
+      <p class="jbl_footer_info_texts"></p>
+
+
+      <p class="jbl_footer_info_texts"></p>
+
+
+      <p class="jbl_footer_info_texts"></p>
+
+      
+  </div>
+
+</div>
+<hr class="bootom_horizontal_line">
+
+
+
+
+
+
+   
+  </body>
+
+  <script src="script_cdn.js"></script>
+
+  <script src="script.js"></script>
+</html>
